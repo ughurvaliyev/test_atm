@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Deposite</title>
+</head>
+<body>
+    <section class="atm"> 
+<div class="container">
+    <div class="atm_body">
+        <div class="atm_money atm_deposit">
+            <p>Deposite</p>
+            <p>$ <span class="deposit">0</span></p>
+        </div>
+        <div class="atm_money atm_cash">
+            <p>cash out</p>
+            <p>$ <span class="cash">0</span></p>
+        </div>
+        <div class="atm_money atm_balance">
+        <p>Balance</p>
+        <p>$ <span class="balance">0</span></p>
+    </div>
+        </div>
+    </div>
+    <form action="" class="atm_form">
+        <div class="atm_box">
+            <label for="depositInput" class="atm_label">
+                Deposite
+                <input type="number" id="depositInput" class="atm_input"/> 
+            </label>
+            <button class="deposit_btn atm_btn">Deposit</button>
+        </div>
+<div class="atm_box">
+    <label for="cashInput" class="atm_label">
+Cash Out
+<input type="number" id="cashInput" class="atm_input"/>
+    </label>
+<button class="cash_btn atm_btn">Cash out</button>
+</div>
+    </form>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

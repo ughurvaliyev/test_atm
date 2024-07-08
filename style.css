@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.atm {
+    height: 100vh;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atm_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atm_money{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 10px;
+width: 200px;
+height: 100px;
+margin: 10px;
+border-radius: 8px;
+}
+
+
+.atm_deposit {
+    background-color: green;
+}
+
+
+.atm_cash{
+    background-color: red;
+}
+
+.atm_balance{
+    background-color: gray;
+}
+
+.atm_form{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.atm_label{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 10px;    
+}
+
+.atm_input{
+    border: 1px solid black;
+    outline: none;
+    border-radius: 12px;
+    padding: 5px 10px;
+}
+
+.atm_box {
+    row-gap: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0, rgba(176, 167, 167, 0.867);
+}
+
+.atm_btn {
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
